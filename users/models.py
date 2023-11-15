@@ -12,6 +12,7 @@ if TYPE_CHECKING:
 
 class UserOrm(Base):
     __tablename__ = 'users'
+    __entity_name__ = 'user'
 
     pk: Mapped[int] = mapped_column(primary_key=True)
     first_name: Mapped[str]

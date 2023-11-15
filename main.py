@@ -1,7 +1,7 @@
 import asyncio
 from users import controllers
 from chats import controllers
-from martin_eden.main import Backend
+from martin_eden.core import Backend
 
 
 if __name__ == '__main__':

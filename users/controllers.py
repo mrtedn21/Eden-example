@@ -20,7 +20,7 @@ db = DataBase()
     '/users/', 'get',
     response_schema=user_list_get_schema,
     query_params={
-        UserOrm: ['first_name', 'last_name'],
+        UserOrm: ['first_name', 'last_name', 'pk'],
         CityOrm: ['name'],
         CountryOrm: ['name'],
         GenderOrm: ['name'],
